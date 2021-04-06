@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.background{
+    background-image: url(https://www.mujer.com.pa/sites/default/files/field/image/psicodelicos.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.back-color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.row{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    margin-top: 230px;
+}
+
+.col-60{
+    width: 100%;
+    padding: 30px;
+}
+
+.col-60 h2{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+.col-60 h2:hover{
+    transform: translateX(20px);
+}
+
+.col-60 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4rem;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+.col-60 p:hover{
+    transform: scale(1.3);
+    
+}
+
+.col-60 button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.col-60 button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transform: rotate(180deg);
+    
+}
